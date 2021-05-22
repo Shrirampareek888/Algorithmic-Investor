@@ -1,0 +1,9 @@
+MongoDB connectivity
+Stock List DB
+Buy Calls DB
+Sell Calls DB 
+Last updated DB 
+Remind Calls
+Mail Management
+Login -> my reminders edit delete add
+Run Script Every Hour
