@@ -150,11 +150,11 @@
           margin-bottom: 20px;
           height: 338px;
       ">
-          <h4><a href="">{{cmp[0]}}</a></h4>
+          <h4><a href="">{{cmp["cmpny_name"]}}</a></h4>
           <p>
-            Current Price:<strong><div style="color: #16df7e;">  <span data-toggle="counter-up">{{cmp[1]}}</span></div></strong>
-            All time High: <strong><div style="color: #16df7e;"> <span data-toggle="counter-up">{{cmp[2]}}</span></div></strong>
-            Percentage down from all time high:<strong><div style="color: #16df7e;"> <span data-toggle="counter-up">{{cmp[3]}}</span> %</div></strong>
+            Current Price:<strong><div style="color: #16df7e;">  <span data-toggle="counter-up">{{cmp["cmpny_price"]}}</span></div></strong>
+            All time High: <strong><div style="color: #16df7e;"> <span data-toggle="counter-up">{{cmp["cmpny_high"]}}</span></div></strong>
+            Percentage down from all time high:<strong><div style="color: #16df7e;"> <span data-toggle="counter-up">{{cmp["change_per"]}}</span> %</div></strong>
           </p>
           </div>
           </div>
@@ -210,7 +210,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/enno-free-simple-bootstrap-template/ -->
-        Made by Shriram Pareek.
+        Made by Shriram Pareek. Last updated at {{date}} {{time}}
       </div>
     </div>
   </footer><!-- End Footer -->
